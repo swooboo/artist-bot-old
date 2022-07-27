@@ -77,6 +77,7 @@ class Painter(commands.Cog):
 def prepare_file_and_embed(image_base64, prompt_text):
     embed = discord.Embed(title=prompt_text,
                           color=discord.colour.Color.dark_gold())
+    embed.set_footer(text='Powered by craiyon.com')
     attachment_file = discord.File(io.BytesIO(base64.b64decode(image_base64)), filename='craiyon.jpg')
     embed.set_image(url='attachment://craiyon.jpg')
     return attachment_file, embed
