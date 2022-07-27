@@ -66,7 +66,8 @@ async def on_ready():
     # TODO: Register your extensions here
     initial_extensions = [
         '.cogs.misc',
-        '.cogs.help'
+        '.cogs.help',
+        '.cogs.painter'
     ]
 
     for extension in initial_extensions:
