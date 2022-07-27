@@ -8,18 +8,18 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
     # TODO: Adjust your project information here
-    name='discord-bot',
+    name='artist-bot',
     version='2.0.0',
-    description='A discord bot template',
+    description='A Discord bot with artistic capabilities',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/nonchris/discord-bot',
-    author='nonchris',
-    author_email='info@nonchris.eu',
+    url='https://github.com/swooboo/artist-bot',
+    author='swooboo',
+    author_email='swooboo@mail.ru',
 
     project_urls={
-        'Bug Reports': 'https://github.com/nonchris/discord-bot/issues',
-        'Source': 'https://github.com/https://github.com/nonchris/discord-bot',
+        'Bug Reports': 'https://github.com/swooboo/artist-bot/issues',
+        'Source': 'https://github.com/swooboo/artist-bot',
     },
 
     keywords='discord-bot',
