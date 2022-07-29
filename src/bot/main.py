@@ -65,9 +65,10 @@ async def on_ready():
     bot.remove_command('help')  # unload default help message
     # TODO: Register your extensions here
     initial_extensions = [
+        '.cogs.painter',
+        '.cogs.writer',
         '.cogs.misc',
-        '.cogs.help',
-        '.cogs.painter'
+        '.cogs.help'
     ]
 
     for extension in initial_extensions:
