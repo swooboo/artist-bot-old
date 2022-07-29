@@ -13,7 +13,7 @@ from ..utils.imageconvert import combine_base64_images, ZeroImagesReceivedExcept
 
 # @package painter
 #
-# Collection of miscellaneous helpers.
+# A painter
 #
 
 class Painter(commands.Cog):
@@ -30,7 +30,7 @@ class Painter(commands.Cog):
         @param prompt_words The subject to draw
         """
 
-        logging.info(f"Received !prompt from author {ctx.author}")
+        logging.info(f"Received !draw from author {ctx.author}")
         prompt_text = ' '.join(prompt_words)
         ack_message = await ctx.send(f"{ctx.author.mention}, drawing {prompt_text}")
         try:
