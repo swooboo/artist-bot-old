@@ -23,6 +23,7 @@ red = discord.Color.from_rgb(255, 28, 25)      # error red
 # Utilities and helper functions
 #
 
+
 async def send_embed(ctx, embed):
     """!
     Handles the sending of embeds

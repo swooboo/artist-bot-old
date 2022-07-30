@@ -62,7 +62,8 @@ async def get_random_quote(category: str = 'humour') -> (str, str):
     quotes = [{'text': '"I don\'t know"', 'author': 'Nobody'}]
     query_headers = {'X-RapidAPI-Key': "456f319919msh7915cb535acbbafp114225jsn0dbe3a1454fa",
                      'X-RapidAPI-Host': "quotes-villa.p.rapidapi.com"}
-    async with aiohttp.request(method='GET', url=f'https://quotes-villa.p.rapidapi.com/quotes/{category}', headers=query_headers) as response:
+    async with aiohttp.request(method='GET', url=f'https://quotes-villa.p.rapidapi.com/quotes/{category}',
+                               headers=query_headers) as response:
         if response.status == 200:
             logging.info(f'Querying for quotes in the {category} category complete, got status: {response.status}')
             quotes = await response.json()
