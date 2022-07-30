@@ -35,7 +35,7 @@ class Misc(commands.Cog):
         )
 
     # Example for an event listener
-    # This one will be called on each message the bot recieves
+    # This one will be called on each message the bot receives
     @commands.Cog.listener()
     async def on_message(self, message: discord.Message):
         pass

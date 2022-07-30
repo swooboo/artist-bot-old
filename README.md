@@ -1,4 +1,4 @@
-### This template is currenty based on discord.py 1.7.3
+### This template is currently based on discord.py 1.7.3
 A migration to d.py v2 will happen in the near future.  
 # discord-bot-template
 Generic, functional bot based on discord.py  
@@ -36,7 +36,7 @@ Or use a json-file expected at: `./data/config.json` like:
 }
 ```
 
-_If a variable is set using env and json the **the environment-variable replaces the json**!_
+_If a variable is set using env and json **the environment-variable replaces the json**!_
 
 ## features
 This bot does 'nothing' but is completely functional!  

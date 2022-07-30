@@ -47,7 +47,7 @@ async def send_embed(ctx, embed):
 
 def make_embed(title="", color=blue_light, name="‌", value="‌", footer=None) -> discord.Embed:
     """!
-    Function to generate generate an embed in one function call
+    Function to generate an embed in one function call
     please note that name and value can't be empty - name and value contain a zero width non-joiner
 
     @param title Headline of embed
@@ -81,7 +81,7 @@ def extract_id_from_string(content: str) -> Union[int, None]:
 
 def get_member_name(member: discord.Member) -> str:
     """!
-    Shorthand to extract wich name to use when addressing member
+    Shorthand to extract which name to use when addressing member
     @return member.nick if exists else member.name
     """
     return member.nick if member.nick else member.name
